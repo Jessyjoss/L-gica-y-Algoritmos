@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🛒 Gestión de Productos Online</h1>
+
+  <!-- Filtro por precio -->
+  <div class="filtros">
+    <h2><label for="precio-max">Precio máximo:</label></h2>
+    <input type="number" id="precio-max" placeholder="1000" min="0" />
+    <button id="btn-filtrar">Filtrar</button>
+  </div>
+<!--Aqui muestro la lista de los productos que se van filtrando-->
+  <div id="productos-filtrados">
+    <h2>📋 Lista de Productos Filtrados</h2>
+    <ul id="lista-productos"></ul>
+  </div>
+<!--Aqui se muestran las categorias que hay-->
+  <div id="botones-categorias">
+    <h2>Categoría</h2>
+    <button class="categoria-btn" data-categoria="Ropa y calzado👗👞">Ropa y calzado👗👞</button>
+    <button class="categoria-btn" data-categoria="Electrónica 🎮">Electrónica 🎮</button>
+    <button class="categoria-btn" data-categoria="Educación 📚">Educación 📚</button>
+    <button class="categoria-btn" data-categoria="Belleza 💄">Belleza 💄</button>
+  </div>
+
+<!--Resumen de los datos filtrados-->
+  <div id="resumen">
+    <h2>Resumen</h2>
+    <p id="total"></p>
+    <p id="todos-ropa"></p>
+    <p id="hay-caros"></p>
+    <p id="incluye-Perfume"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
