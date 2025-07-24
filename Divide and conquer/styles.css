@@ -1,0 +1,46 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #faf9f591;
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  color: #2f3640;
+}
+
+
+h2 {
+  color: #ffe600;
+}
+
+
+#inputNumeros {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f3f02c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #faf752;
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #dcdde1;
+  border-radius: 5px;
+}
